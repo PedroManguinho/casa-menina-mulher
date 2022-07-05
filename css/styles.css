@@ -1,0 +1,53 @@
+/*Definição de tamanho minimo para mobile*/
+body {
+    min-width: 372px;
+}
+.identacao{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 16px;
+}
+.block{
+    background-color: #f5f4ee;
+    border: 1px solid #f0efec;
+    border-radius: 0;
+    margin-bottom: 40px;
+    padding: 30px 15px 25px;
+    transition: all 0.4s ease 0s;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+/*Cor padrão para Background*/
+.bg-cor-padrao {
+    --bs-bg-opacity: 1;
+    --bs-bgpadrao: 235, 27, 27;
+    background-color: rgba(var(--bs-bgpadrao),var(--bs-bg-opacity))!important;
+}
+/*Define a altura da view port da pagina*/
+.wrapper{
+    min-height: 100vh;
+}
+/*Icone de Qauntidade de itens na cesta*/
+.iconeQuantC {
+    --bs-badge-padding-x: 0.50em;
+    --bs-badge-padding-y: 0.30em;
+    --bs-badge-font-size: 0.75em;
+    --bs-badge-font-weight: 700;
+    --bs-badge-color: #fff;
+    --bs-badge-border-radius: 0.375rem;
+    display: inline-block;
+    padding: var(--bs-badge-padding-y) var(--bs-badge-padding-x);
+    font-size: var(--bs-badge-font-size);
+    font-weight: var(--bs-badge-font-weight);
+    line-height: 1;
+    color: var(--bs-badge-color);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: var(--bs-badge-border-radius,0);
+}
+
+.i{
+    background-color: rgb(235, 27, 27);
+}

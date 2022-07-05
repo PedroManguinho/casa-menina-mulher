@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Casa Menina Mulher :: Loja Virtual</title>
+</head>
+
+<body>
+    <div class="d-flex flex-column wrapper">
+        <!-- Barra de Navegação com Responsividade -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-cor-padrao border-bottom shadow p-3 mb-4">
+            <div class="container">
+                <a class="navbar-brand" href="#"><b>Casa Menina Mulher</b><br> 
+                <p style="font-size: 16px; line-height: 8px;">Loja virtual</p></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aling-self-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item text-white">
+                            <a class="nav-link text-white" href="login.html">
+                                <i class="bi bi-person-circle" style="font-size: 20px;line-height: 1px;"></i> Entrar
+                            </a>
+                        </li>
+                        <li class="nav-item text-white">
+                            <a class="nav-link text-white" href="cadastro.html">
+                                <i class="bi bi-box-arrow-right" style="font-size: 20px;line-height: 1px;"></i> Cadastre-se
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="position-absolute ms-4 mt-0 iconeQuantC rounded-pill bg-light text-danger "
+                                title="5 produto(s) no carrinho">
+                                <small>3</small>
+                            </span>
+                            <a class="nav-link" href="compras.html">
+                                <i class="bi bi-basket2 text-white" style="font-size: 20px;line-height: 1px;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Banner rotativo-->
+        <div class="container">
+            <div id="cPrincipal" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#cPrincipal" data-bs-slide-to="0" class="active"></button>
+                  <button type="button" data-bs-target="#cPrincipal" data-bs-slide-to="1"></button>
+                  <button type="button" data-bs-target="#cPrincipal" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="css/banner01.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="css/banner02.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="css/banner03.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#cPrincipal" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cPrincipal" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <hr class="mt-3 container">
+        </div>
+
+        <main class="flex-fill">
+            <div class="container ">
+                <!--Barra de pesquisa-->
+                <div class="row justify-content-md-end">
+                    <div class="col-8">
+                        <form class="justify-content-center">
+                            <div class="input-group input-group-sm">
+                                <input type="text" class="form-control" placeholder="Pesquisar...">
+                                <button class="btn bg-cor-padrao"><i class="bi bi-search text-white" 
+                                    style="font-size: 16px;"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+                            <select class="form-control-sm form-select form-select-sm ml-3 d-inline-block ms-2">
+                                <option>Filtros</option>
+                                <option>Maior Preço</option>
+                                <option>Menor Preço</option>
+                                <option>Ordem Alfabetica</option>
+                            </select>
+                            <nav class="d-inline-block">
+                                <ul class="pagination pagination-sm my-0">
+                                    <li class="page-item">
+                                        <button class="page-link">1</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">2</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">3</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">4</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">5</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">6</button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="row">
+                    <!--Responsividade do card-->
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <!--Icone de favorito do card-->
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart-fill" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                            <!--Imagem do card-->
+                            <img src="css/products/p1.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                <!--Valor do produto-->
+                                R$ 30,50
+                            </div>
+                            <div class="card-body">
+                                <!--Nome do Produto-->
+                                <h5 class="card-title">Regata</h5>
+                                <!--Descrição do Produto-->
+                                <p class="card-text">
+                                    Uma regata preta muito confortavel.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                <!--Botão de adicionar ao carrinho-->
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                <!--Unidades disponiveis-->
+                                <small class="text-danger">5 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fim do card-->
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p2.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 40,50
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pelucia de gatinho</h5>
+                                <p class="card-text">
+                                    Uma pelucia fofinha de gato.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">14 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p3.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 49,99
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pelucia My Melody</h5>
+                                <p class="card-text">
+                                    Uma pelucia fofinha.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">3 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p4.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 60,00
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Casaco Verde estampado</h5>
+                                <p class="card-text">
+                                    Um casaquinho para o frio.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-outline-danger" disabled>
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-dark">Fora de estoque</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p5.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 6,00
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pulseira</h5>
+                                <p class="card-text">
+                                    Uma pulseira rosa.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">8 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart-fill" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p6.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 56,00
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Vestido</h5>
+                                <p class="card-text">
+                                    Vestido preto.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">7 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p7.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 14,50
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Brinco</h5>
+                                <p class="card-text">
+                                    Brinco de coração.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-outline-danger" disabled>
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-dark">Fora de estoque</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart-fill" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p8.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 33,50
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Vestido</h5>
+                                <p class="card-text">
+                                    Vestido verde.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">5 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p9.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 67,99
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Casaco</h5>
+                                <p class="card-text">
+                                    Casaco azul.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">10 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p10.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 13,50
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Colar</h5>
+                                <p class="card-text">
+                                    Um colar de ursinhos.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">19 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p11.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 30,00
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Vestido</h5>
+                                <p class="card-text">
+                                    Vestido Laranja.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-danger">
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-danger">2 unidades</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex aling-items-stretch mb-2">
+                        <div class="card text-center bg-light">
+                            <a href="" class="position-absolute right-0 p-2 text-danger">
+                                <i class="bi bi-bookmark-heart" style="font-size: 28px;line-height: 28px;"></i>
+                            </a>
+                           
+                            <img src="css/products/p12.jpg" class="card-img-top" href="">
+                            <div class="card-header">
+                                R$ 56,00
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Pelucia</h5>
+                                <p class="card-text">
+                                    Pelucia Kuromi.
+                                </p>
+                            </div>
+                            <div card="card-footer">
+                                
+                                <form class="d-block">
+                                    <button class="btn btn-outline-danger" disabled>
+                                        Adicionar 
+                                        <i class="bi bi-bag-plus" style="font-size: 18px;line-height: 18px;"></i>
+                                    </button>
+                                </form>
+                                
+                                <small class="text-dark">Fora de estoque</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <!--Barra de pesquisa-->
+                <hr>
+                <div class="row justify-content-md-center mb-3">
+                    <div class="col-4">
+                        <div class="d-flex justify-content-center">
+                            <nav class="d-inline-block">
+                                <ul class="pagination pagination-sm my-0">
+                                    <li class="page-item">
+                                        <button class="page-link">1</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">2</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">3</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">4</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">5</button>
+                                    </li>
+                                    <li class="page-item">
+                                        <button class="page-link">6</button>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <!-- Rodape da Pagina-->
+        <footer class="border-top text-muted bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12 col-md-4 text-center">
+                        <p class="text-dark">&copy; 2022 - Casa Menina Mulher <br>
+                            Rua Leão Coroado, 55 – Boa Vista, Recife/PE – BRASIL <br>
+                            CEP: 50.060-250</p>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <p>
+                            <a href="politica_de_privacidade.html" class="text-decoration-none text-dark">
+                                Politica de Privacidade
+                            </a><br>
+                            <a href="quem_somos.html" class="text-decoration-none text-dark">
+                                Quem Somos
+                            </a><br>
+                            <a href="termos_de_uso.html" class="text-decoration-none text-dark">
+                                Termos de Uso
+                            </a><br>
+                            <a href="servicos.html" class="text-decoration-none text-dark">
+                                Serviços Prestados
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <p class="text-dark">Contato <br> Telefone:
+                            <a href="phone:558132310463" class="text-decoration-none text-dark">
+                                +55 81-3231-0463
+                            </a>
+                            <a href="phone:558183476274" class="text-decoration-none text-dark">
+                                +55 81-8347-6274
+                            </a> <br>
+                            Email: <a href="mailto:cmm@casameninamulher.org.br" class="text-decoration-none text-dark">
+                                cmm@casameninamulher.org.br </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <!--Java Script-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
