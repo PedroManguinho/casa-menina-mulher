@@ -1,9 +1,3 @@
-<head>
-  <style>
-    .recuo { text-indent: 4em }
-  </style>
-<head/>
-
 <h1>Titulo ou Arte do Projeto</h1> 
 
 <p align="center">
@@ -32,7 +26,7 @@
 
 ## Descrição do projeto 
 
-<div class="recuo">
+<div>
   <p align="justify">
 Devido a necessidade da ONG Casa Menina Mulher de captar de maneira eficiente recursos para si, foi proposto a problemática de desenvolver um sistema que conseguisse melhorar tal condição. A partir disso surgiu a ideia de desenvolver um site para arrecadar doações e divulgar produtos tais como roupas,brinquedos e artesanatos.
 </p>
@@ -63,7 +57,7 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 ## Layout
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png"/>
+<img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="50%" width="50%"/>
 </div>
 
 ... 
