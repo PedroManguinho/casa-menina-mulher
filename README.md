@@ -30,13 +30,15 @@
 
 ## Descrição do projeto 
 
-<p align="justify" class="recuo">
+<div class="recuo">
+  <p align="justify">
 Devido a necessidade da ONG Casa Menina Mulher de captar de maneira eficiente recursos para si, foi proposto a problemática de desenvolver um sistema que conseguisse melhorar tal condição. A partir disso surgiu a ideia de desenvolver um site para arrecadar doações e divulgar produtos tais como roupas,brinquedos e artesanatos.
 </p>
 
-<p align="justify" class="recuo">
+<p align="justify">
 Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existiam projetos dentro da Casa menina mulher que incentivaram as alunas a desenvolver um senso de empreendedorismo, porém isso foi descontinuado. Então a proposta da loja virtual é resgatar isso de uma maneira simples e de baixo orçamento.
 </p>
+<div/>
 
 ## Funcionalidades
 
