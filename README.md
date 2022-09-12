@@ -57,48 +57,38 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 ## Layout
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="80%" width="80%"/><br>
-<img src="https://user-images.githubusercontent.com/93573025/189629039-85d99880-4e5b-4e30-b317-f755b2394a07.png" heigh="80%" width="80%"/><br>
-<img src="https://user-images.githubusercontent.com/93573025/189629051-d4cc495e-1f2b-4018-a931-5b57194edaa5.png" heigh="80%" width="80%"/><br>
-<img src="https://user-images.githubusercontent.com/93573025/189629059-3b797880-b784-488c-aa55-0dc973543a74.png" heigh="80%" width="80%"/>
+<img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="60%" width="60%"/><br>
+<img src="https://user-images.githubusercontent.com/93573025/189629039-85d99880-4e5b-4e30-b317-f755b2394a07.png" heigh="60%" width="60%"/><br>
+<img src="https://user-images.githubusercontent.com/93573025/189629051-d4cc495e-1f2b-4018-a931-5b57194edaa5.png" heigh="60%" width="60%"/><br>
+<img src="https://user-images.githubusercontent.com/93573025/189629059-3b797880-b784-488c-aa55-0dc973543a74.png" heigh="60%" width="60%"/>
 </div>
-  
-
-Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
 ## Pré-requisitos
 
 :warning: [Node](https://nodejs.org/en/download/)
 
-...
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
-
 ## Linguagens, dependencias e libs utilizadas :books:
 
 - [React](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
 - [React PDF](https://react-pdf.org/)
-...
-
-## Resolvendo Problemas :exclamation:
-
-Em [issues]() foram abertos alguns problemas gerados durante o desenvolvimento desse projeto e como foram resolvidos. 
+- [Bootstrap](https://getbootstrap.com)
+- [Bootstrap Doc](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 
 ## Tarefas em aberto
 
-Se for o caso, liste tarefas/funcionalidades que ainda precisam ser implementadas na sua aplicação
+:memo: Refazer o protótipo utilizando React
 
-:memo: Tarefa 1 
+:memo: Implementar sistema de cadastro e login 
 
-:memo: Tarefa 2 
-
-:memo: Tarefa 3 
+:memo: Implementar sistema de pagamento/doação
+  
+:memo: Implementar edição de cards dos produtos
 
 ## Desenvolvedores/Contribuintes :octocat:
 
 Liste o time responsável pelo desenvolvimento do projeto
 
-| [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |  [<img src="https://avatars2.githubusercontent.com/u/46378210?s=400&u=071f7791bb03f8e102d835bdb9c2f0d3d24e8a34&v=4" width=115><br><sub>Diana Regina</sub>](https://github.com/Diana-ops) |
+| [<img src="https://user-images.githubusercontent.com/93573025/189636715-74d60f5b-444d-4ab6-a15b-ec1cd6e4e428.png"><br><sub>Pedro Manguinho</sub>](https://github.com/PedroManguinho) |  [<img src="https://user-images.githubusercontent.com/93573025/189636731-930b4045-9185-4282-959a-78ded317ffe4.png"><br><sub>Kelvyn Fernando</sub>](https://github.com/) |  [<img src="https://user-images.githubusercontent.com/93573025/189636726-75e9811c-adee-4ab3-9ba7-f18292163e43.png"><br><sub>Vitória Uchoa</sub>](https://github.com/) |
 | :---: | :---: | :---: 
 
 ## Licença 
