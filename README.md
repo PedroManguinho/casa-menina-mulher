@@ -37,21 +37,21 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 
 ## Funcionalidades
 
-:heavy_check_mark: Responsividade  
+:gear: Responsividade  
 
-:heavy_check_mark: Login/Cadastro 
+:gear: Login/Cadastro 
 
-:heavy_check_mark: Favoritos 
+:gear: Favoritos 
 
-:heavy_check_mark: Filtros
+:gear: Filtros
 
-:heavy_check_mark: Cesta de compras 
+:gear: Cesta de compras 
 
-:heavy_check_mark: Efetuar pagamento
+:gear: Efetuar pagamento
 
-:heavy_check_mark: Criar/Editar itens da loja
+:gear: Criar/Editar itens da loja
 
-:heavy_check_mark: Paginas de informaçoes
+:gear: Paginas de informaçoes
 
 ## Layout
 
