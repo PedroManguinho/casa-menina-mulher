@@ -1,6 +1,8 @@
-<style>
-.recuo { text-indent:4em }
-</style>
+<head>
+  <style>
+    .recuo { text-indent: 4em }
+  </style>
+<head/>
 
 <h1>Titulo ou Arte do Projeto</h1> 
 
