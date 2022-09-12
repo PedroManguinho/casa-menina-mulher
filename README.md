@@ -57,10 +57,12 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 ## Layout
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="50%" width="50%"/>
+<img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="80%" width="80%"/><br>
+<img src="https://user-images.githubusercontent.com/93573025/189629039-85d99880-4e5b-4e30-b317-f755b2394a07.png" heigh="80%" width="80%"/><br>
+<img src="https://user-images.githubusercontent.com/93573025/189629051-d4cc495e-1f2b-4018-a931-5b57194edaa5.png" heigh="80%" width="80%"/><br>
+<img src="https://user-images.githubusercontent.com/93573025/189629059-3b797880-b784-488c-aa55-0dc973543a74.png" heigh="80%" width="80%"/>
 </div>
-
-... 
+  
 
 Se ainda não houver deploy, insira capturas de tela da aplicação ou gifs
 
