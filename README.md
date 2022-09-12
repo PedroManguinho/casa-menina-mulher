@@ -2,7 +2,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
    <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
 </p>
 
@@ -86,12 +85,8 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 
 ## Desenvolvedores/Contribuintes :octocat:
 
-Liste o time responsável pelo desenvolvimento do projeto
-
-<div align="justify">
 | [<img src="https://user-images.githubusercontent.com/93573025/189636715-74d60f5b-444d-4ab6-a15b-ec1cd6e4e428.png" width=115><br><sub>Pedro Manguinho</sub>](https://github.com/PedroManguinho) |  [<img src="https://user-images.githubusercontent.com/93573025/189636731-930b4045-9185-4282-959a-78ded317ffe4.png" width=115><br><sub>Kelvyn Fernando</sub>](https://github.com/) |  [<img src="https://user-images.githubusercontent.com/93573025/189636726-75e9811c-adee-4ab3-9ba7-f18292163e43.png" width=115><br><sub>Vitória Uchoa</sub>](https://github.com/) |
 | :---: | :---: | :---: 
-<div/>
 
 ## Licença 
 
