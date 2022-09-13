@@ -15,8 +15,6 @@
 
 :small_blue_diamond: [Layout](#layout)
 
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
-
 :small_blue_diamond: [Linguagens e dependências utilizadas](#ldu)
 
 :small_blue_diamond: [Tarefas](#tarefas)
@@ -53,7 +51,7 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 
 :gear: Paginas de informaçoes
 
-## Layout
+## Layout https://img.shields.io/static/v1?message=teste&color=pink&style=flat-square&logo=appveyor
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="60%" width="60%"/><br>
@@ -61,10 +59,6 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 <img src="https://user-images.githubusercontent.com/93573025/189629051-d4cc495e-1f2b-4018-a931-5b57194edaa5.png" heigh="60%" width="60%"/><br>
 <img src="https://user-images.githubusercontent.com/93573025/189629059-3b797880-b784-488c-aa55-0dc973543a74.png" heigh="60%" width="60%"/>
 </div>
-
-## Pré-requisitos
-
-:warning: [Node](https://nodejs.org/en/download/)
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
