@@ -51,7 +51,7 @@ Assim como dito pelo Presidente da ONG José Américo Teixeira de Barros, existi
 
 :gear: Paginas de informaçoes
 
-## Layout <img src="https://img.shields.io/static/v1?message=teste&color=pink&style=flat-square&logo=appveyor"/>
+## Layout
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/93573025/189626420-cbb03d7a-ea3e-4ebf-9f3b-601ac94a124d.png" heigh="60%" width="60%"/><br>
